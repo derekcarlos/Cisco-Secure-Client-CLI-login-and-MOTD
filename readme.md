@@ -1,10 +1,6 @@
 # Cisco AnyConnect CLI loging and MOTD
 
 Create a new alias within bash/zsh to connect or disconnect from the VPN with ease. No clicking required!
-
-___
-### You must quit out of the Cisco AnyConnect application for this to work.
-
 ___
 
 ## To install:
@@ -17,8 +13,10 @@ ___
 * * ```password``` being the password you'd use to connect
 * * Completely remove ```username``` and ```password``` and replace them with your own values. Leave ```y``` as is.
 
-Within Warp, start a new terminal tab or exit and then open up a terminal instance again to see if you're connected to the vpn.
+Within Warp or iTerm2, start a new terminal tab or exit and then open up a terminal instance again to see if you're connected to the vpn.
 
 ## To connect:
 
-Enter ```vpn``` in the terminal to be prompted to connect ("y" or "n"). This will also notify you whether you're currently connected or not.
+* Ensure that Cisco AnyConnect is not running
+
+* Enter ```vpn``` in the terminal to be prompted to connect ("y" or "n"). This will also notify you whether you're currently connected or not.
