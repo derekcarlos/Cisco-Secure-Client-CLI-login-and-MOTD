@@ -1,4 +1,6 @@
-# Cisco AnyConnect CLI loging and MOTD
+# Cisco Secure Client CLI loging and MOTD
+
+This is a fork of the existing Cisco AnyConnect Client CLI Login and MOTD. This works for Cisco Secure Client with a minor change on how the VPN connection state output is captured.
 
 Create a new alias within bash/zsh to connect or disconnect from the VPN with ease. No clicking required!
 ___
@@ -17,6 +19,6 @@ Within Warp or iTerm2, start a new terminal tab or exit and then open up a termi
 
 ## To connect:
 
-* Ensure that Cisco AnyConnect is not running
+* Ensure that Cisco Secure Client is not running
 
 * Enter ```vpn``` in the terminal to be prompted to connect ("y" or "n"). This will also notify you whether you're currently connected or not.

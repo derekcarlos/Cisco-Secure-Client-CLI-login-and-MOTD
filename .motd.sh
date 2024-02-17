@@ -4,7 +4,7 @@ GREEN='\033[0;32m'
 RED='\033[0;31m'
 NC='\033[0m'
 
-status=$(/opt/cisco/anyconnect/bin/vpn status | grep -m 1 'state: ')
+status=$(/opt/cisco/secureclient/bin/vpn status | grep -m 2 'state: ' | tail -n 1)
 
 if [[ $status == *'state: Disconnected'* ]]; then
   echo -e "${RED}
